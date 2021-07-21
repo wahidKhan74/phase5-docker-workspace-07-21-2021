@@ -1,0 +1,23 @@
+# verify docker version
+> sudo docker --version
+> sudo docker -v
+
+# docker info
+> sudo docker info
+
+# list docker images
+> sudo docker images
+
+# list docker containers
+
+> sudo docker ps -a
+> sudo docker container ls
+
+# list docker volume
+> sudo docker volume ls
+
+# pull docker image from docker hub
+> sudo docker pull <image:tag>
+> sudo docker pull ubuntu
+> sudo docker pull mysql
+> sudo docker pull alphine
