@@ -1,0 +1,12 @@
+# list all images
+> sudo docker images
+
+# custom docker image creation / docker file
+# Docker file : A Dockerfile is a text document which contains all the commands 
+# that a user can call on the command line to assemble an image.
+
+> sudo docker build -t phpcode -f path/Dockerfile  or
+> sudo docker build -t phpcode .
+
+# run container from custom image
+> sudo docker run --name phpserver -p 8080:80 -d phpcode
