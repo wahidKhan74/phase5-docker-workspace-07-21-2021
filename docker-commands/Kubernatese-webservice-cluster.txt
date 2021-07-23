@@ -1,0 +1,3 @@
+# host webservice within kubernetes cluster
+kubectl run ecom-webservice-kube --image=ecom-webservice --port=8081
+kubectl expose pod/ecom-webservice-kube --port=8081 --target-port=8081 --type=LoadBalancer
